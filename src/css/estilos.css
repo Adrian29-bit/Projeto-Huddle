@@ -1,0 +1,81 @@
+body {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    font-family: 'Open sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+
+header {
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+}
+
+.container .ilustracao{
+    max-width: 100%;
+    height: auto;
+}
+
+    .informacoes {
+    padding: 20px;
+    color: #fff;
+}
+
+.informacoes .titulo {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.informacoes .subtitulo {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.informacoes a {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 50px;
+    margin: 15px;
+    font-weight: 400;
+}
+
+.informacoes a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    transition: 0.3s;
+} 
+
+footer{
+    padding: 30px;
+    color: #fff;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.social a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.social a:hover {
+    border-color:hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}

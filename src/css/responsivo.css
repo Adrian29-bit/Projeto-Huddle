@@ -1,0 +1,59 @@
+@media(max-width: 425px) {
+    body {
+        background: hsl(257, 40%, 49%) url(../images/bg-mobile.svg) no-repeat;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header img {
+        width: 160px;
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 40px;
+    }
+
+    .ilustracao {
+        max-width: 100%;
+    }
+
+    .informacoes {
+        padding: 10px;
+    }
+
+    .informacoes .titulo {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .informacoes .subtitulo {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .informacoes .btn {
+        display: block;
+        max-width: 200px; 
+        padding: 12px 20px; 
+        font-size: 14px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 15px;
+    }
+
+    .social a {
+        width: 35px;
+        height: 35px;
+    }
+}
