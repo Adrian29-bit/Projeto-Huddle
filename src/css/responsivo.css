@@ -39,7 +39,7 @@
         line-height: 1.5;
     }
 
-    .informacoes .btn {
+    .informacoes a {
         display: block;
         max-width: 200px; 
         padding: 12px 20px; 

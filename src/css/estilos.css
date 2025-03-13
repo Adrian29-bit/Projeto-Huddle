@@ -52,12 +52,13 @@ header {
     padding: 10px 50px;
     margin: 15px;
     font-weight: 400;
+    transition: all 0.3s ease;
 }
 
 .informacoes a:hover {
     background-color: hsl(300, 69%, 71%);
     color: #fff;
-    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -82,10 +83,12 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
+    transition: all 0.3s ease
 }
 
 .social a:hover {
     border-color: hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);
     transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
